@@ -1,0 +1,107 @@
+body{
+    padding-left: 5px;
+    padding-right: 5px; 
+    background: gray;
+}
+
+header{
+    padding: 5px;
+    border-radius: 10px;
+    background: #191919;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+li{
+    list-style-type: none;
+}
+.ankertag_sarawa{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: "Alkia";
+    margin-right: 10px;
+    background: #343434;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.about{
+    background: #191919;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;  
+    color: white;
+}
+.about .profel img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 3px solid white;
+    padding: 2px;
+    object-fit: cover;
+    margin: 10px;
+}
+.about .name_index{
+    padding: 10px;
+    background: #343434;
+    border-radius: 10px;
+    margin: 20px;
+    font-family: "Alkia";
+}
+.about .name{
+    padding: 10px;
+    background: #343434;
+    border-radius: 10px;
+    margin: 20px;
+    font-family: "Alkia";
+    text-align: center;
+}
+
+
+.btn{
+    width: 30%;
+    background: #343434;
+    border-radius: 4px;
+    border: none;
+    padding: 10px;
+    text-align: left;
+    color: white;   
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: .3s;
+    
+}
+.btn:hover{
+    background: black;
+}
+.btn h3{
+    margin: auto;
+    font-size: 12px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    width: 100%;   
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-family: "Alkia";
+    font-size: small;
+    font-size: 1;
+    color: white;
+}
+.footer .sall{
+    color: white;
+    font-size: 3px;
+}
